@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#topbox {
+    background-image: url(./img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 85vh;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: hsla(0, 0%, 0%, 0.218) 0.1vw 0.5vh;
+}
+
+#exp {
+    font-family: Poppins;
+    font-size: 2.2vw;
+    font-weight: 700;
+    line-height: 20vh;
+    text-align: justified;
+    color: #ffffff;
+    text-shadow: hsla(0, 0%, 0%, 0.578) 0.1vw 0.2vh;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 9vh;
+    background-color: #747DFF35;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header h1 {
+    padding-left: 4.5vw;
+    font-family: Lobster;
+    font-size: 2.2vw;
+    font-weight: 400;
+    line-height: 25vh;
+    text-align: justified;
+    color: #FFFFFF;
+}
+
+header a {
+    font-family: Poppins;
+    font-size: 2.6vh;
+    font-weight: 700;
+    line-height: 18vh;
+    text-align: justified;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: #FFAD32;
+    scale: 1.1;
+    rotate: -1deg;
+}
+
+#buttons {
+    padding-right: 1.6vw;
+    display: flex;
+    gap: 3.8vw;
+    cursor: pointer;
+}
+
+#filter {
+    background-color: #747dff6e;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar {
+    width: 90vw;
+    height: 20vh;
+    background-color: #FFFFFF;
+    border-radius: 0.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper input {
+    outline: none;
+    border-color: #B8C0C7;
+    border-radius: 0.8vh;
+    padding: 0.5vw;
+    border-width: 0.1vh;
+    border-style: solid;
+    font-family: Poppins;
+    font-size: 2.1vh;
+    font-weight: 400;
+    line-height: 3.1vh;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #767F86;
+}
+
+.input-wrapper label {
+    font-family: Poppins;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 3.3vh;
+    text-align: left;
+    color: #767F86;
+    width: 22vw;
+}
+
+#search {
+    width: 26.4vw;
+}
+
+#button {
+    background-color: #FFAD32;
+    font-family: Poppins;
+    font-size: 1.1vw;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 10.1vw;
+    height: 5.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5vh;
+    text-decoration: none;
+}
+
+#ajuste {
+    padding-top: 1.6vw;
+}
+
+#sc1 {
+    display: flex;
+    padding-top: 10vw;
+    gap: 10vw;
+    margin-bottom: 14vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 39vw;
+    padding-left: 5vw;
+    gap: 2vw;
+}
+
+article h6 {
+    background-color: #FFAD32;
+    width: 17.5vw;
+    height: 0.9vh;
+    border-radius: 8px;
+}
+
+#button2 {
+    background-color: #FFAD32;
+    font-family: Poppins;
+    font-size: 1.1vw;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 10.1vw;
+    height: 5.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.9vh;
+    text-decoration: none;
+}
+
+#ar1t {
+    font-family: Lobster;
+    font-size: 1.9vw;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #747DFF;
+}
+
+#sc1 h2 {
+    font-family: Poppins;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 3.3vh;
+    text-align: justified;
+}
+
+#frame1 {
+    width: 17vw;
+    height: 33.9vh;
+    background-color: #dedddd48;
+    box-shadow: hsla(0, 0%, 0%, 0.39) 0.13vw 0.2vh;
+    border-radius: 1.2vh;
+}
+
+#frame1 img {
+    padding-left: 0.8vw;
+    padding-top: 1.7vh;
+    height: 30.6vh;
+    width: 15.4vw;
+}
+
+#frame2 {
+    width: 17vw;
+    height: 33.9vh;
+    background-color: #dedddd48;
+    box-shadow: hsla(0, 0%, 0%, 0.39) 0.13vw 0.2vh;
+    border-radius: 1.2vh;
+}
+
+#frame2 img {
+    padding-left: 0.8vw;
+    padding-top: 1.7vh;
+    height: 30.6vh;
+    width: 15.4vw;
+}
+
+#frame3 {
+    width: 17vw;
+    height: 33.9vh;
+    background-color: #dedddd48;
+    box-shadow: hsla(0, 0%, 0%, 0.39) 0.13vw 0.2vh;
+    border-radius: 1.2vh;
+}
+
+#frame3 img {
+    padding-left: 0.8vw;
+    padding-top: 1.7vh;
+    height: 30.6vh;
+    width: 15.4vw;
+}
+
+#frame4 {
+    width: 17vw;
+    height: 33.9vh;
+    background-color: #dedddd48;
+    box-shadow: hsla(0, 0%, 0%, 0.39) 0.13vw 0.2vh;
+    border-radius: 1.2vh;
+}
+
+#frame4 img {
+    padding-left: 0.8vw;
+    padding-top: 1.7vh;
+    height: 30.6vh;
+    width: 15.4vw;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 11fr 11fr;
+    grid-template-rows: 11fr 11fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 3vh;
+}
+
+#gradient {
+    background: rgb(255, 231, 194);
+    background: linear-gradient(27deg, rgba(255, 231, 194, 1) 11%, rgba(189, 172, 255, 1) 100%);
+    width: 100vw;
+    height: 1300px;
+}
+
+#gradient h4 {
+    font-family: Lobster;
+    font-size: 1.9vw;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #747DFF;
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 46px;
+}
+
+#row1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 44px;
+}
+
+#row2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 44px;
+}
+
+.textos_valores {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+}
+
+.local {
+    display: flex;
+    align-items: baseline;
+}
+
+.valores {
+    width: 212px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 220px;
+    justify-content: space-between;
+}
+
+.valorn {
+    font-size: 1.2vw;
+}
+
+.valora {
+    text-decoration: line-through;
+    font-size: 0.7vw;
+    font-weight: bold;
+    color: #767F86;
+}
+
+.cidade {
+    padding-top: 7px;
+}
+
+.cel {
+    background-color: #FFFFFF;
+    padding: 12px;
+    width: 390px;
+    height: 460px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.imgframe {
+    width: 20.8vw;
+    height: 18vw;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.valores_botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #FFAD32;
+    font-family: Poppins;
+    font-size: 0.8vw;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 8.1vw;
+    height: 3.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.9vh;
+    text-decoration: none;
+    border: none;
+}
+
+#londonimg {
+    width: 20.8vw;
+    height: 15vw;
+}
+
+#sc3 h1 {
+    font-family: Lobster;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #747DFF;
+    margin-top: 173px;
+}
